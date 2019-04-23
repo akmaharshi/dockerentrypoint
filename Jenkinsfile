@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         dockerfile true
-        args '--entrypoint=\'\''
+        //args '--entrypoint=\'\''
     }
     stages {
         stage('Dead Simple') {
