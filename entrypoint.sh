@@ -9,4 +9,4 @@ if [ "$1" ]; then
 fi
 
 # else run my script
-exec python ./my_script.py
+exec java -version
