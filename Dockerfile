@@ -1,2 +1,3 @@
 FROM openjdk:8-jdk-alpine
-ENTRYPOINT "java"
+ADD entrypoint.sh /
+ENTRYPOINT [ "/entrypoint.sh" ]
